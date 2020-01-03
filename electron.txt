@@ -1,0 +1,14 @@
+打包exe文件
+先安装package模块
+npm init
+npm run package
+
+加载js错误解决方法
+http://www.mamicode.com/info-detail-1709079.html
+
+更新版本号
+https://www.jianshu.com/p/5df57c82542a
+
+使用Nsis打包之前在生成exe文件目录resources目录中执行asar pack ./app asar.asar将html源码文件加密
+Nsis打包自定义安装目录
+https://leezhonglin.github.io/2018/10/25/NSIS%E6%89%93%E5%8C%85electron%E7%94%9F%E6%88%90%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%BAexe%E5%AE%89%E8%A3%85%E5%8C%85/
